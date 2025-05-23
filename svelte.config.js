@@ -14,7 +14,7 @@ const config = {
         })
 	},
     paths: {
-        base: process.argv.includes('dev') ? '' : '/mysveltestatic'
+        base: process.argv.includes('dev') ? '' : '/mystaticsvelte'
     }
 };
 
