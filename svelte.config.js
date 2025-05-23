@@ -12,7 +12,10 @@ const config = {
             precompress: false,
             strict: true
         })
-	}
+	},
+    paths: {
+        base: process.argv.includes('dev') ? '' : '/mysveltestatic'
+    }
 };
 
 export default config;
